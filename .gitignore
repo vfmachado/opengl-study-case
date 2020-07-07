@@ -1,6 +1,11 @@
 # Binaries
 x64/
+Debug/
 
 # Visual Studio files and folder
 .vs/
 **.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+
+imgui.ini
