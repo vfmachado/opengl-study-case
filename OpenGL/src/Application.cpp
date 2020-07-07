@@ -36,6 +36,7 @@
 #include "./examples/TriangleLayer.h"
 #include "./examples/OrthoCameraLayer.h"
 
+#include "./examples/mit/Assignment0/Assignment0Layer.h"
 
 Application::Application(const std::string & name)
 {
@@ -192,6 +193,8 @@ void Application::showMenu()
 	if (ImGui::Button("3. Triangle Layer", buttonSize)) m_layer = new TriangleLayer();
 	if (ImGui::Button("3. OrthoCamera Layer", buttonSize)) m_layer = new OrthoCameraLayer();
 	
+	if (ImGui::Button("MIT 0. Mesh Viewer", buttonSize)) m_layer = new Assignment0Layer();
+
 	ImGui::End();
 }
 

@@ -1,7 +1,7 @@
 
 unsigned int vao;
 unsigned int modelVao;
-int modelCount;
+int '1;
 
 bool rotation = false;
 glm::vec3 color(1, 0, 0);

@@ -63,6 +63,9 @@
     <ClCompile Include="src\core\Window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\examples\mit\Assignment0\Assignment0Layer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\vendor\stb_image\stb_image.h">
@@ -974,6 +977,9 @@
     <ClInclude Include="src\core\Core.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\examples\mit\Assignment0\Assignment0Layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="src\vendor\glm\detail\func_common.inl">
@@ -1388,6 +1394,8 @@
     <None Include="res\shaders\fragmentShader.glsl" />
     <None Include="res\shaders\triangleVS.glsl" />
     <None Include="res\shaders\triangleFS.glsl" />
+    <None Include="res\shaders\mit\assignment0_vs.glsl" />
+    <None Include="res\shaders\mit\assignment0_fs.glsl" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="src\oldIdeas.txt" />
